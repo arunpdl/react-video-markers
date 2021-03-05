@@ -59,9 +59,8 @@ function Controls(props) {
       secondsStr = '0' + seconds;
     }
 
-    return `${
-      hoursStr !== '00' ? hoursStr + ':' : ''
-    }${minutesStr}:${secondsStr}`;
+    return `${hoursStr !== '00' ? hoursStr + ':' : ''
+      }${minutesStr}:${secondsStr}`;
   };
 
   const durationTimeCode = getTimeCode(Math.ceil(duration));
@@ -84,8 +83,8 @@ function Controls(props) {
         </div>
       ) : null}
       {controls.includes('progress') ? (
-        <div className="progress-wrap">
-          <progress ref={progressEl} max="100" onClick={onProgressClick}>
+        <div className="progress-wrap" >
+          <progress ref={progressEl} max="100" onClick={onProgressClick} id="player-progress" >
             0% played
           </progress>
           {markers &&

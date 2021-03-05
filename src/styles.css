@@ -36,28 +36,28 @@
 }
 
 .react-video-controls .play {
-  background-image: url('./images/play-black.svg');
+  background-image: url("./images/play-black.svg");
 }
 
 .react-video-controls .pause {
-  background-image: url('./images/pause-black.svg');
+  background-image: url("./images/pause-black.svg");
   background-size: 15px;
 }
 
 .react-video-controls .volume {
-  background-image: url('./images/volume-black.svg');
+  background-image: url("./images/volume-black.svg");
   background-position-x: 0;
   width: 17px;
 }
 
 .react-video-controls .no-volume {
-  background-image: url('./images/no-volume-black.svg');
+  background-image: url("./images/no-volume-black.svg");
   background-position-x: 0;
   width: 17px;
 }
 
 .react-video-controls .full-screen {
-  background-image: url('./images/full-screen-black.svg');
+  background-image: url("./images/full-screen-black.svg");
   width: 17px;
 }
 
@@ -86,7 +86,7 @@
 }
 
 .react-video-controls .progress-wrap progress::-webkit-progress-value {
-  background: #28C0F0;
+  background: #28c0f0;
 }
 
 .react-video-controls .progress-wrap progress::-webkit-progress-bar {
@@ -151,7 +151,7 @@
 }
 
 .react-video-full-screen .react-video-close {
-  background: url('./images/close-video.svg') no-repeat transparent;
+  background: url("./images/close-video.svg") no-repeat transparent;
   border: 0;
   cursor: pointer;
   opacity: 1;
@@ -169,23 +169,23 @@
 }
 
 .react-video-full-screen .react-video-controls .play {
-  background-image: url('./images/play-white.svg');
+  background-image: url("./images/play-white.svg");
 }
 
 .react-video-full-screen .react-video-controls .pause {
-  background-image: url('./images/pause-white.svg');
+  background-image: url("./images/pause-white.svg");
 }
 
 .react-video-full-screen .react-video-controls .volume {
-  background-image: url('./images/volume-white.svg');
+  background-image: url("./images/volume-white.svg");
 }
 
 .react-video-full-screen .react-video-controls .no-volume {
-  background-image: url('./images/no-volume-white.svg');
+  background-image: url("./images/no-volume-white.svg");
 }
 
 .react-video-full-screen .react-video-controls .full-screen {
-  background-image: url('./images/full-screen-white.svg');
+  background-image: url("./images/full-screen-white.svg");
 }
 
 .react-video-full-screen .react-video-controls .time {
