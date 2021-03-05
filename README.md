@@ -63,7 +63,7 @@ Prop | Description | Default
 `isPlaying` | Set to `true` or `false` to play or pause the media | false
 `volume` | Set the volume of the player, between `0` and `1` | 0.7
 `loop` | Set to `true` or `false` to loop the media | false
-`markers` | Set array of markers. Example: `[{id: 1, time: 5, color: '#ffc837', title: 'Marker 1'}]` | []
+`markers` | Set array of markers. Example: `[{id: 1, time: 5, endTime: 15, color: '#ffc837', title: 'Marker 1'}]` | []
 `timeStart` | Set the second number to start playing video | 0 
 `url` | The url of a video | 
 
@@ -76,4 +76,4 @@ onPause | Called when media is paused
 onVolume | Called when volume is changed. Callback contains `volume`
 onProgress | Callback contains `event`
 onDuration | Callback contains `duration` of the media, in seconds
-onMarkerClick | Called when marked is clicked. Callback contains marker object. Example: `{id: 1, time: 5, color: '#ffc837', title: 'Marker 1'}`
+onMarkerClick | Called when marked is clicked. Callback contains marker object. Example: `{id: 1, time: 5, endTime: 15, color: '#ffc837', title: 'Marker 1'}`

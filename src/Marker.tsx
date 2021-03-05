@@ -42,7 +42,7 @@ function Marker(props: IProps) {
       style={{
         background: color,
         left: getPosition(),
-        width: getWidth(time, endTime)
+        ...(endTime && { width: getWidth(time, endTime) })
       }}
       onClick={() => {
         onMarkerClick(marker);
